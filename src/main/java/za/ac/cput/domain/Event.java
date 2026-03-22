@@ -48,6 +48,19 @@ public class Event {
         return maxAttendees;
     }
 
+        @Override
+        public String toString() {
+            return "Event{" +
+                    "eventId=" + eventId +
+                    ", name='" + name + '\'' +
+                    ", description='" + description + '\'' +
+                    ", organizer=" + organizer +
+                    ", venue=" + venue +
+                    ", dateTime='" + dateTime + '\'' +
+                    ", maxAttendees=" + maxAttendees +
+                    '}';
+        }
+
     public static class Builder {
         private int eventId;
         private String name;
