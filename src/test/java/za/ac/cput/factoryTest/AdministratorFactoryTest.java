@@ -1,4 +1,4 @@
-package za.ac.cput.factory;
+package za.ac.cput.factoryTest;
 
 import org.junit.Test;
 import za.ac.cput.domain.Administrator;

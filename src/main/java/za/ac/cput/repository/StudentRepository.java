@@ -25,22 +25,48 @@ public class StudentRepository implements IStudentRepository{
 
     @Override
     public Student findByStudentNumber(String studentNumber) {
+        for (Student student : studentMap.values()) {
+            if (student.getStudentNumber().equals(studentNumber)) {
+                return student;
+            }
+        }
         return null;
     }
 
     @Override
     public List<Student> findByFaculty(String faculty) {
-        return List.of();
+        List<Student> result = new ArrayList<>();
+
+        for (Student student : studentMap.values()) {
+            if (student.getFaculty().equalsIgnoreCase(faculty)) {
+                result.add(student);
+            }
+        }
+        return result;
     }
 
     @Override
     public List<Student> findByYearOfStudy(int yearOfStudy) {
-        return List.of();
+        List<Student> result = new ArrayList<>();
+        for (Student student : studentMap.values()) {
+            if (student.getYearOfStudy() == yearOfStudy) {
+                result.add(student);
+            }
+        }
+        return result;
     }
+
 
     @Override
     public List<Student> findByDepartment(String department) {
-        return List.of();
+        List<Student> result = new ArrayList<>();
+
+        for (Student student : studentMap.values()) {
+            if (student.getDepartment().equalsIgnoreCase(department)) {
+                result.add(student);
+            }
+        }
+        return result;
     }
 
     @Override
