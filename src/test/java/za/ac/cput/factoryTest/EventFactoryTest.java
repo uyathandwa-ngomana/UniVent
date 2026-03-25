@@ -1,7 +1,8 @@
-package za.ac.cput.factory;
+package za.ac.cput.factoryTest;
 
 import org.junit.Test;
 import za.ac.cput.domain.Event;
+import za.ac.cput.factory.EventFactory;
 
 import static org.junit.Assert.*;
 

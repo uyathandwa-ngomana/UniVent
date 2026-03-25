@@ -4,13 +4,13 @@ package za.ac.cput.domain;
  *Surname: Mvovo
  *Student number: 230816851
  *Group: 3H
- *Description:BookingStatusEnum
+ *Description:EventStatusEnum
  * Date: 25 March 2026
  **/
 
-
-public enum BookingStatusEnum {
-    PENDING,
-    CONFIRMED,
+public enum EventStatusEnum {
+    UPCOMING,
+    ONGOING,
+    COMPLETED,
     CANCELLED
 }
