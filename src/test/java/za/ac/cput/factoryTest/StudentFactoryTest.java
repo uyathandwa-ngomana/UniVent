@@ -5,6 +5,12 @@ import za.ac.cput.domain.Student;
 import za.ac.cput.factory.StudentFactory;
 
 import static org.junit.Assert.*;
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * StudentFactoryTest.java
+ * Date: 22 March 2026
+ * **/
 
 public class StudentFactoryTest {
     @Test

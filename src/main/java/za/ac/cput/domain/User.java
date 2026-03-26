@@ -1,4 +1,10 @@
 package za.ac.cput.domain;
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * User.java
+ * Date: 20 March 2026
+ * **/
 
 public abstract class User {
     private int userId;

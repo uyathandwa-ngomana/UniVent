@@ -6,6 +6,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * StudentRepository.java
+ * Date: 25 March 2026
+ * **/
 
 public class StudentRepository implements IStudentRepository{
 

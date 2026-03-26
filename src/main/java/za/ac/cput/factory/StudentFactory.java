@@ -2,6 +2,12 @@ package za.ac.cput.factory;
 
 import za.ac.cput.domain.Student;
 import za.ac.cput.util.Helper;
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * StudentFactory.java
+ * Date: 22 March 2026
+ * **/
 
 public class StudentFactory {
 

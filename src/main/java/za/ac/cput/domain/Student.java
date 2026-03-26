@@ -1,5 +1,11 @@
 package za.ac.cput.domain;
 
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * Student.java
+ * Date: 20 March 2026
+ * **/
 public class Student extends User {
     private String studentNumber;
     private String faculty;

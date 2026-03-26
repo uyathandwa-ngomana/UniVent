@@ -9,6 +9,12 @@ import za.ac.cput.repository.StudentRepository;
 import java.util.List;
 
 import static org.junit.Assert.*;
+/**Student name: Samukelo Ndlela
+ * Student number: 231116144
+ * Group: 3H
+ * StudentRepositoryTest.java
+ * Date: 25 March 2026
+ * **/
 
 public class StudentRepositoryTest {
     private StudentRepository repository;
